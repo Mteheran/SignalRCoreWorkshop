@@ -1,0 +1,2 @@
+# SignalRCoreWorkshop
+Netconf: SignalRCore Workshop
