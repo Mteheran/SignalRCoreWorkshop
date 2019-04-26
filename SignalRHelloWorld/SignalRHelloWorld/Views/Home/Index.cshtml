@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <form>
+        <div>
+            User:
+            <input type="text" id="userInput" />
+            <br />
+            Message:
+            <input type="text" id="messageInput" />
+        </div>
+        <br />
+        <button type="submit" id="chatSubmit">Enviar</button>
+        <button type="submit" id="chatConnection" data-connection="Off">Desconectar</button>
+        <div class="row">
+            <ul id="messageHistory"></ul>
+        </div>
+    </form>
+</div>
+
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/hubs/chathub.js"></script>
